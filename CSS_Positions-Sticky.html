@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS_Positions-Sticky</title>
+
+    <link rel="stylesheet" href="assests/CSS/necolas.github.io_normalize.css_8.0.1_normalize.css">
+    <style>
+        main{
+            border: 2px solid red;
+            width: 700px;
+            height: 500px;
+        }
+        section{
+            border: 2px solid green;
+            width: 500px;
+            height: 400px;
+            position: relative;
+        }
+
+        section>div{
+            border: 2px solid #9c27b0;
+            position: fixed;
+            width: 186px;
+            height: 57px;
+            border-radius: 41px;
+            background-color: #4f316f;
+            right: 40px;
+            bottom: 40px;
+            cursor: pointer;
+        }
+
+        section>div:hover{
+            background-color: #962ce2;
+        }
+
+        section>div:hover>h1 {
+            color: #35ff8c;
+
+        }
+
+        div>h1{
+            color: white;
+            text-align:center;
+            margin: 0;
+            padding: 10px;
+
+        }
+
+        section>h1 {
+            color: red;
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <div>
+            <h1> Q & A . ?</h1>
+        </div>
+        <h1>Inside Section - Hello </h1>
+        <h2>Hello There !</h2>
+    </section>
+</main>
+<article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda aut dolorem dolorum eveniet,
+        explicabo iste laborum maxime molestias odio perspiciatis placeat qui quos, sapiente sed ut vero. Voluptatem,
+        voluptates.</p>
+    <p>A, dicta doloremque eaque eius et explicabo, facilis harum hic laboriosam laudantium, modi nihil nostrum optio
+        quidem quisquam repellendus repudiandae ut vel veritatis voluptates. Distinctio esse est nostrum ratione
+        voluptas.</p>
+    <p>Accusamus, alias architecto at aut commodi consequuntur dolor harum in minus necessitatibus neque nobis optio
+        quaerat quasi quis repellendus, repudiandae saepe sit sunt suscipit temporibus tenetur ullam vel veniam
+        veritatis?</p>
+    <p>Asperiores expedita iusto nulla possimus. Accusamus ad aliquam aut culpa dignissimos dolor magnam maiores minus
+        mollitia necessitatibus nemo non omnis possimus quae quaerat quas quia repudiandae tempore totam, voluptatibus.
+        Libero.</p>
+    <p>Alias aperiam explicabo id in itaque nisi quod voluptatem? Architecto id illum voluptas voluptates? Debitis dicta
+        doloremque enim fugit labore magnam magni nisi recusandae. Omnis pariatur perferendis reiciendis soluta
+        voluptatem.</p>
+    <p>Alias aliquid architecto exercitationem incidunt mollitia. Deserunt eos perspiciatis repudiandae. Ad animi
+        aspernatur enim expedita impedit, iusto maiores obcaecati officiis porro provident quaerat qui repudiandae vero,
+        vitae voluptate voluptatem voluptatum.</p>
+    <p>Autem ipsum quaerat quam suscipit ullam. Accusamus aliquam, animi beatae corporis deleniti dolorum, expedita harum
+        laborum nesciunt non, praesentium quasi repellendus reprehenderit vel veritatis! Dolorum impedit quas rerum
+        temporibus velit.</p>
+    <p>At ea eos iure minima repellat. Distinctio ducimus illum molestias mollitia non quibusdam quidem quo soluta
+        voluptate. Alias aliquam cum deleniti illo laborum, minus saepe sunt? Cum ipsam iure placeat.</p>
+    <p>Aut autem consectetur culpa distinctio est inventore saepe sed, voluptate. Ab alias amet atque consequatur cum
+        distinctio ea eum harum inventore itaque laboriosam magnam odit perspiciatis quaerat repudiandae rerum,
+        voluptatem.</p>
+    <p>Asperiores assumenda atque cupiditate earum fugit nobis optio, quam quas quasi suscipit? Ad culpa, dolores earum
+        eius explicabo iste magni obcaecati officia officiis quasi repellat sit soluta, temporibus veniam voluptate!</p>
+    <p>Autem ipsum quaerat quam suscipit ullam. Accusamus aliquam, animi beatae corporis deleniti dolorum, expedita harum
+        laborum nesciunt non, praesentium quasi repellendus reprehenderit vel veritatis! Dolorum impedit quas rerum
+        temporibus velit.</p>
+    <p>At ea eos iure minima repellat. Distinctio ducimus illum molestias mollitia non quibusdam quidem quo soluta
+        voluptate. Alias aliquam cum deleniti illo laborum, minus saepe sunt? Cum ipsam iure placeat.</p>
+    <p>Aut autem consectetur culpa distinctio est inventore saepe sed, voluptate. Ab alias amet atque consequatur cum
+        distinctio ea eum harum inventore itaque laboriosam magnam odit perspiciatis quaerat repudiandae rerum,
+        voluptatem.</p>
+    <p>Asperiores assumenda atque cupiditate earum fugit nobis optio, quam quas quasi suscipit? Ad culpa, dolores earum
+        eius explicabo iste magni obcaecati officia officiis quasi repellat sit soluta, temporibus veniam voluptate!</p>
+    <p>Asperiores assumenda atque cupiditate earum fugit nobis optio, quam quas quasi suscipit? Ad culpa, dolores earum
+        eius explicabo iste magni obcaecati officia officiis quasi repellat sit soluta, temporibus veniam voluptate!</p>
+    <p>Autem ipsum quaerat quam suscipit ullam. Accusamus aliquam, animi beatae corporis deleniti dolorum, expedita harum
+        laborum nesciunt non, praesentium quasi repellendus reprehenderit vel veritatis! Dolorum impedit quas rerum
+        temporibus velit.</p>
+    <p>At ea eos iure minima repellat. Distinctio ducimus illum molestias mollitia non quibusdam quidem quo soluta
+        voluptate. Alias aliquam cum deleniti illo laborum, minus saepe sunt? Cum ipsam iure placeat.</p>
+    <p>Aut autem consectetur culpa distinctio est inventore saepe sed, voluptate. Ab alias amet atque consequatur cum
+        distinctio ea eum harum inventore itaque laboriosam magnam odit perspiciatis quaerat repudiandae rerum,
+        voluptatem.</p>
+    <p>Asperiores assumenda atque cupiditate earum fugit nobis optio, quam quas quasi suscipit? Ad culpa, dolores earum
+        eius explicabo iste magni obcaecati officia officiis quasi repellat sit soluta, temporibus veniam voluptate!</p>
+</article>
+
+</body>
+</html>
