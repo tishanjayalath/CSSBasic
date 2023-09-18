@@ -32,6 +32,7 @@
       right: 40px;
       top: 0;
 
+
     }
     header>nav>ul>li {
       display: inline-block;
@@ -39,8 +40,34 @@
       padding: 10px;
       font-family: 'Poppins', sans-serif;
       color: rgba(46,41,41,0.96);
+      font-size: 19px;
+      border-right: 2px solid rgba(46,41,41,0.58);
+
+
 
     }
+    header>nav>ul>li :first-child{
+      border-left: 2px solid rgba(46,41,41,0.58);
+    }
+
+    main ul>li:hover a {
+      color: #eee309;
+    }
+
+    main ul>li:hover i {
+      color: #ff9500;
+    }
+    header ul>li:hover a {
+      color: rgba(228,12,12,0.89);
+    }
+
+    header ul>li:hover i {
+      color: #c21e1e;
+    }
+
+
+
+
 
     main {
       position: relative;
@@ -60,7 +87,43 @@
       padding-top: 40px;
       font-size: 19px;
       cursor: pointer;
+
     }
+
+
+
+
+
+
+
+
+
+    header ul>li>i {
+      padding-right: 6px;
+
+    }
+
+
+     main ul>li>i {
+      padding-right: 15px;
+       font-size: 20px;
+       color: #19bb5f;
+
+    }
+
+     main>ul >li :hover  a {
+       color: #35ff8c;
+     }
+
+
+
+    main ul>li>a {
+      color: #eee6e6;
+      text-decoration: none;
+
+    }
+
+
 
     main>section {
       margin-left: 270px;
@@ -92,10 +155,10 @@
   <img src="assests/img/favicon.png" alt="Logo">
   <nav>
     <ul>
-      <li><i class="fa-solid fa-house"></i>Home</li>
-      <li><i class="fa-solid fa-gear"></i>Services</li>
-      <li><i class="fa-solid fa-user"></i>Contact</li>
-      <li><i class="fa-solid fa-user"></i>About Us</li>
+      <li><i class="fa-solid fa-house"></i><a href="http://ijse.lk" target="_blank">Home</a></li>
+      <li><i class="fa-solid fa-gear"></i><a href="#">Services</a></li>
+      <li><i class="fa-solid fa-phone"></i><a href="#">Contacts</a></li>
+      <li><i class="fa-solid fa-user"></i><a href="#">About Us</a></li>
     </ul>
   </nav>
 </header>
@@ -103,10 +166,10 @@
 <main>
   <nav>
    <ul>
-     <li><i class="fa-solid fa-house"></i>Home</i></li>
-     <li><i class="fa-solid fa-gear"></i>Services</li>
-     <li><i class="fa-solid fa-user"></i>Contacts</li>
-     <li><i class="fa-solid fa-user"></i>About Us</li>
+     <li><i class="fa-solid fa-house"></i><a href="http://ijse.lk" target="_blank">Home</a></li>
+     <li><i class="fa-solid fa-gear"></i><a href="#">Services</a></li>
+     <li><i class="fa-solid fa-phone"></i><a href="#">Contacts</a></li>
+     <li><i class="fa-solid fa-user"></i><a href="#">About Us</a></li>
    </ul>
   </nav>
   <section>
