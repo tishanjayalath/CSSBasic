@@ -22,13 +22,29 @@
        height: 100px;
        width: 100px;
 
-          /*Flex grow*/   /* Default 0 */
+          /*Flex grow*/   /* Default 0 */ /* the unitless Proportion value
          /*Flex-shrink*/   /* Default 1 */
          /*Flex-Basis*/    /* Auto or item width */
 
-       flex-shrink: 0;
+       flex-shrink: 1;  /*if 0 shrink factor is off */
+   /*    By doing this flex items will overflow the flex container*/
+
+       /*flex-grow: 1;*/
 
    }
+   section>div:nth-child(1) {
+       background-color: red;
+       flex-grow: 1;
+   }
+   section>div:nth-child(2) {
+       background-color: green;
+       flex-grow: 1;
+   }
+   section>div:nth-child(3) {
+       background-color: orange;
+       flex-grow: 1;
+   }
+
   </style>
 </head>
 <body>
@@ -36,30 +52,8 @@
   <div>A</div>
   <div>B</div>
   <div>C</div>
-    <div>C</div>
-    <div>A</div>
-    <div>B</div>
-    <div>C</div>
-    <div>C</div>
-    <div>A</div>
-    <div>B</div>
-    <div>C</div>
-    <div>C</div>
-    <div>A</div>
-    <div>B</div>
-    <div>C</div>
-    <div>C</div>
-    <div>A</div>
-    <div>B</div>
-    <div>C</div>
-    <div>C</div>
-    <div>A</div>
-    <div>B</div>
-    <div>C</div>
-    <div>C</div>
-    <div>A</div>
-    <div>B</div>
-    <div>C</div>
+
+
 
 
 </section>
